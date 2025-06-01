@@ -1,4 +1,5 @@
 Vegetable-Organic is built to meet the needs of customers with a wide selection of products
+
 Simple user interface makes it easy for customers to search, select and order
 Admin can manage products, business activities, …
 
