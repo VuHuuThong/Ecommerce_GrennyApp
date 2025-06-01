@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <meta
+    http-equiv="content-type"
+    content="text/html;charset=utf-8"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="author" content="mironcoder" />
+    <meta name="email" content="mironcoder@gmail.com" />
+    <meta name="profile" content="https://themeforest.net/user/mironcoder" />
+    <meta name="template" content="greeny" />
+    <meta name="title" content="greeny - Ecommerce Food Store HTML Template" />
+    <meta
+      name="keywords"
+      content="organic, food, shop, ecommerce, store, html, bootstrap, template, agriculture, vegetables, products, farm, grocery, natural, online"/>
+      
+    <title>Web bán nông sản</title>
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="fonts/flaticon/flaticon.css" />
+    <link rel="stylesheet" href="fonts/icofont/icofont.min.css" />
+    <link rel="stylesheet" href="fonts/fontawesome/fontawesome.min.css" />
+    <link rel="stylesheet" href="vendor/venobox/venobox.min.css" />
+    <link rel="stylesheet" href="vendor/slickslider/slick.min.css" />
+    <link rel="stylesheet" href="vendor/niceselect/nice-select.min.css" />
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/about.css" />
+      <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    
+    <!--************************************
+				Header Start
+		*************************************-->
+		<header th:replace="~{/web/fragments/header :: header}"></header>
+		<!--************************************
+				Header End
+		*************************************-->
+
+    <section
+      class="inner-section single-banner"
+      style="background: url(images/single-banner.jpg) no-repeat center" >
+      <div class="container">
+        <h2>Thông Tin</h2>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a th:href="@{/}">Trang Chủ</a></li>
+          
+        </ol>
+      </div>
+    </section>
+    
+    <section class="about-choose">
+      <div class="container">
+        <div class="row">
+          <div class="col-11 col-md-9 col-lg-7 col-xl-6 mx-auto">
+            <div class="section-heading">
+              <h2>Tại sao mọi người chọn cuộc sống hữu cơ hàng ngày với chúng tôi</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="choose-card">
+              <div class="choose-icon"><i class="icofont-fruits"></i></div>
+              <div class="choose-text">
+                <h4>100% Thực Phẩm Hữu Cơ Tươi</h4>
+                <p>
+                    Được lựa chọn thông qua những người nông dân có kinh nghiệm tốt nhất và an toàn nhất.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="choose-card">
+              <div class="choose-icon">
+                <i class="icofont-vehicle-delivery-van"></i>
+              </div>
+              <div class="choose-text">
+                <h4>Giao hàng trong vòng một giờ</h4>
+                <p>
+                    - Vận chuyển hàng hoá đi tỉnh, nội thành giá rẻ.
+
+                    Khi có nhu cầu quý khách đừng ngần ngại, hãy điện thoại cho chúng tôi ngay để được chăm sóc một cách tốt nhất.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="choose-card">
+              <div class="choose-icon"><i class="icofont-loop"></i></div>
+              <div class="choose-text">
+                <h4>Chính Sách Hoàn Trả Nhanh Chóng</h4>
+                <p>
+                    Theo các điều khoản và điều kiện được quy định trong chính sách trả hàng và hoàn tiền này và tạo thành một phần của điều khoản dịch vụ, chúng tôi đảm bảo quyền lợi của Người mua bằng cách cho phép gửi yêu cầu hoàn trả sản phẩm và/hoặc hoàn tiền trước khi hết hạn. Thời hạn Vegetable-Organic đảm bảo đã được quy định trong Điều khoản Dịch vụ.
+
+                    Vegetable-Organic Đảm Bảo thực hiện bởi Cty, theo yêu cầu của Người dùng, để hỗ trợ Người dùng trong việc giải quyết các xung đột có thể phát sinh trong quá trình giao dịch. Người dùng có thể liên hệ với nhau để thỏa thuận về việc giải quyết tranh chấp của họ hoặc báo cáo lên chúng tôi hoặc cơ quan nhà nước có thẩm quyền để được hỗ trợ trong việc giải quyết bất kỳ tranh chấp xảy ra trước, trong hoặc sau khi sử dụng .
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="choose-card">
+              <div class="choose-icon"><i class="icofont-support"></i></div>
+              <div class="choose-text">
+                <h4>Tổng Đài Hỗ Trợ Tức Thì</h4>
+                <p>
+                 Khách hàng khiếu nại về hàng hóa, dịch vụ của Nhà Bán Hàng mua trên sàn thương mại điện tử VegetableOrganic.vn thực hiện qua:<br>
+
+                    - Gửi thư điện tử đến địa chỉ email: hotro@VegetableOrganic.vn.<br>
+                    - Gọi điện đến Hotline 0778531555.<br>
+                    - Người mua gửi khiếu nại tại địa chỉ:489b,Đại lộ Đồng Khởi,phường Phú Khương,Tp Bến Tre.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+
+    <section class="about-choose">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="images/about/about.jpg" alt="about" width="500" height="410">
+                </div>
+                <div class="col-lg-6">
+                    <div class="choose-card">
+
+                        <div class="choose-text">
+                            <h4>Trách Nhiệm Chúng Tôi</h4>
+                            <p>
+                                Để giúp mọi người có một cuộc sống tốt hơn, khỏe mạnh hơn và lành mạnh bằng cách cung cấp cho họ thực phẩm hữu cơ được chứng nhận 100%.
+                            </p>
+                            <br>
+
+                            <h4>Tầm Nhìn Của Chúng Tôi</h4>
+                            <p>
+                                Trở thành thương hiệu thực phẩm hữu cơ hàng đầu tại Ấn Độ. <br>
+                                Trả lại cho môi trường và tiến tới một con đường bền vững. <br>
+                                Làm cho người tiêu dùng nhận thức được lợi ích của thực phẩm hữu cơ bằng cách cung cấp cho họ những lựa chọn ăn uống lành mạnh.
+                                <br>
+                                Để tạo ra một phong trào lớn dẫn mọi người chuyển sang thực phẩm hữu cơ và thực hiện một lối sống lành mạnh hơn giống như cách đây hàng trăm năm, khi thuốc trừ sâu chưa được sử dụng và mọi thứ chúng ta ăn đều tự nhiên và không có hóa chất.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <hr>
+            <div class="row">
+                <div class="col-11 col-md-9 col-lg-7 col-xl-6 mx-auto">
+                    <div class="section-heading">
+                        <h2>Trang Trại Đến Nhà Bếp</h2>
+                        <img src="images/about/line.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="images/about/farm.png" alt="farm" style="display: block; margin-left: auto; margin-right: auto;">
+                    <div class="choose-text">
+                        <h4 style="text-align: center">Nông Trại</h4>
+                        <p>
+                            Nông dân của chúng tôi được lựa chọn và đào tạo cẩn thận để hướng tới thực hành các kỹ thuật canh tác thân thiện với môi trường. Từ đất không có hóa chất đến những hạt được hái bằng tay - mọi thứ bạn thấy đều được canh tác hữu cơ để mang đến cho bạn sản phẩm chất lượng cao nhất. Chúng tôi kiểm tra chất lượng đất, mô hình trồng trọt, luân canh cây trồng phổ biến và mức độ dinh dưỡng trong đất. Trong khi làm điều này, chúng tôi đảm bảo rằng khu vực đã chọn có điều kiện thời tiết và nhiệt độ phù hợp. Chúng tôi tuân theo một loạt các hoạt động như quản lý độ phì nhiêu của đất, thu thập hạt giống, đa dạng sinh học, ủ phân, quản lý nước, luân canh và bảo vệ cây trồng cực kỳ hiệu quả và có khả năng tái tạo trong tự nhiên.
+                        </p>
+                        <br>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img src="images/about/factory-1.png" alt="factory" style="display: block; margin-left: auto; margin-right: auto;">
+                    <div class="choose-text">
+                        <h4 style="text-align: center">Nhà Máy</h4>
+                        <p>
+                            Với sự kết hợp giữa máy móc truyền thống và máy móc hiện đại, chúng tôi có một phương thức hoạt động hiệu quả mà vẫn hiệu quả. Tất cả các sản phẩm được bảo quản trong một môi trường hợp vệ sinh và khử trùng C02 để kiểm soát sự lây nhiễm. Các phương pháp thực hành tiên tiến và công nghệ khử nước của chúng tôi đảm bảo rằng tất cả các sản phẩm của chúng tôi giữ được mức hiệu lực tối đa. Sản phẩm của chúng tôi được khử nước trong môi trường khô ráo, vô trùng để ngăn ngừa nguy cơ phân hủy phytochemical. Chúng tôi có một cơ chế đặc biệt để bảo tồn ma trận các phân tử hoạt tính sinh học có trong tất cả các sản phẩm bằng cách nghiền chúng ở nhiệt độ thấp. Những gì chúng tôi cung cấp cho bạn là sản phẩm cuối cùng có chất lượng cao nhất, tinh khiết và tự nhiên.
+                        </p>
+                        <br>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img src="images/about/kitchen.png" alt="kitchen" style="display: block; margin-left: auto; margin-right: auto;">
+                    <div class="choose-text">
+                        <h4 style="text-align: center">Nơi Chế Biến</h4>
+                        <p>
+                            Bạn có thể thưởng thức thực phẩm được đóng gói hợp vệ sinh và giữ lại tất cả các lợi ích của thực phẩm hữu cơ mà không có bất kỳ sự can thiệp nào của hóa chất. Chúng tôi luôn ủng hộ thực phẩm ngon, bổ dưỡng và toàn diện hơn. Đã từng chứng kiến những con số cao nhất khi khách hàng nói về lợi ích của việc chuyển sang chế độ ăn uống hữu cơ hơn, chúng tôi tin rằng đã đến lúc phải thay đổi và bây giờ là lúc!
+                        </p>
+                        <br>
+                    </div>
+                </div>
+                <br>
+
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-2">
+                    <img src="images/about/seeds.png" alt="seeds" style="display: block; margin-left: auto; margin-right: auto;">
+                    <div class="choose-text">
+                        <h4 style="text-align: center; color: green">Lựa Chọn Hạt Giống</h4>
+                        <p>
+                            Nông dân được trả một mức giá cao để đảm bảo rằng không có hạt giống biến đổi gen nào được đưa vào sử dụng.</p>
+                        <br>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <img src="images/about/soil.png" alt="soil" style="display: block; margin-left: auto; margin-right: auto;">
+                    <div class="choose-text">
+                        <h4 style="text-align: center; color: green">Kiểm Tra Đất</h4>
+                        <p>
+                            Đất được kiểm tra để xác nhận không có hóa chất.
+                        </p>
+                        <br>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <img src="images/about/harvest.png" alt="hav" style="display: block; margin-left: auto; margin-right: auto;">
+                    <div class="choose-text">
+                        <h4 style="text-align: center; color: green">Mùa Gặt</h4>
+                        <p>
+                            Các loại cây trồng chỉ được thu hoạch sau khi đạt đủ độ chín và các sản phẩm thu được được bảo quản trong môi trường hoàn toàn hợp vệ sinh.
+                        </p>
+                        <br>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <img src="images/about/chemical.png" alt="che" style="display: block; margin-left: auto; margin-right: auto;">
+                    <div class="choose-text">
+                        <h4 style="text-align: center; color: green">Kiểm Tra Hóa Học</h4>
+                        <p>
+                            Hơn 189 thử nghiệm được thực hiện để kiểm tra sự hiện diện của thuốc trừ sâu và giữ lại hiệu lực của cây trồng.
+                        </p>
+                        <br>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <img src="images/about/co2.png" alt="che" style="display: block; margin-left: auto; margin-right: auto;">
+                    <div class="choose-text">
+                        <h4 style="text-align: center; color: green">Cấu Tạo CO2</h4>
+                        <p>
+                            Cây trồng được xông hơi bằng CO2 để loại bỏ vi khuẩn và côn trùng xâm nhập, nếu có.
+                        </p>
+                        <br>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <img src="images/about/packing.png" alt="pak" style="display: block; margin-left: auto; margin-right: auto;">
+                    <div class="choose-text">
+                        <h4 style="text-align: center; color: green">Bao Bì</h4>
+                        <p>
+                            Trong khi đóng gói, tất cả các tiêu chuẩn do Tiêu chuẩn hữu cơ của Ấn Độ đặt ra vẫn được duy trì.
+                        </p>
+                        <br>
+                    </div>
+                </div>
+                <br>
+
+            </div>
+            <br> <br>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-heading">
+                        <h2>Chứng Nhận</h2>
+                        <img src="images/about/line.png" alt="">
+                    </div>
+                    <br>
+                    <div class="choose-text">
+                        <p>
+                            Chúng tôi được chứng nhận hữu cơ theo Tiêu chuẩn Hữu cơ Ấn Độ (NPOP), USDA (NOP), Kosher và EU. Chúng tôi tuân thủ các tiêu chuẩn nghiêm ngặt do APEDA, Bộ Nông nghiệp đặt ra đối với các chứng chỉ giao dịch được sử dụng để truy xuất nguồn gốc cây trồng hữu cơ. Tuy nhiên, chúng tôi không dừng lại ở đó, chúng tôi tự hào đã duy trì chứng nhận Hạng A BRC của mình.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="choose-card">
+
+                        <div class="choose-text">
+                            <img src="images/about/1.jpg" alt="" width="200" height="150">
+                        </div>
+                        <div class="choose-text">
+                            <img src="images/about/2.jpg" alt="" width="200" height="150">
+                        </div>
+                        <div class="choose-text">
+                            <img src="images/about/3.jpg" alt="" width="200" height="150">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="section feature-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h2>Thương Hiệu Nổi Bật</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <ul class="new-slider slider-arrow">
+                        <li>
+                            <div class="product-card">
+                                <div class="product-media">
+
+                                    <img src="images/about/007.png" alt="product" width="300" height="300" />
+
+
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-card">
+                                <div class="product-media">
+
+                                        <img src="images/about/006.png" alt="product" width="300" height="300"/>
+
+
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-card">
+                                <div class="product-media">
+
+                                    <img src="images/about/005.png" alt="product" width="300" height="300"/>
+
+
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-card">
+                                <div class="product-media">
+
+                                    <img src="images/about/004.png" alt="product" width="300" height="300"/>
+
+
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-card">
+                                <div class="product-media">
+
+                                    <img src="images/about/003.png" alt="product" width="300" height="300"/>
+
+
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-card">
+                                <div class="product-media">
+
+                                    <img src="images/about/002.png" alt="product" width="300" height="300"/>
+
+
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-card">
+                                <div class="product-media">
+
+                                    <img src="images/about/dalat.jpg" alt="product" width="300" height="300"/>
+
+
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-card">
+                                <div class="product-media">
+
+                                    <img src="images/about/001.jpg" alt="product" width="300" height="300"/>
+
+
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-card">
+                                <div class="product-media">
+
+                                    <img src="images/about/vin.jpg" alt="product" width="300" height="300"/>
+
+
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <section class="news-part"
+		style="background: url(images/newsletter.jpg) no-repeat center">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-5 col-lg-6 col-xl-7">
+					<div class="news-text">
+						<h2>Nhận chiết khấu 20% cho người đăng ký</h2>
+						<p>Nhận chiết khấu 20% cho người đăng ký</p>
+					</div>
+				</div>
+				<div class="col-md-7 col-lg-6 col-xl-5">
+					<form class="news-form">
+						<input type="text" placeholder="Nhập Email Của Bạn" />
+						<button>
+							<span><i class="icofont-ui-email"></i>Send</span>
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="intro-part">
+		<div class="container">
+			<div class="row intro-content">
+				<div class="col-sm-6 col-lg-3">
+					<div class="intro-wrap">
+						<div class="intro-icon">
+							<i class="fas fa-truck"></i>
+						</div>
+						<div class="intro-content">
+							<h5>Giao hàng tận nhà miễn phí</h5>
+							<p>Giao hàng đúng sản phẩm nhanh chóng, đúng hẹn, hỗ trợ giao tận cửa nếu có nhu ... hạng vàng rồi mà hóa đơn trên 100k vẫn k dc freeship vẫn tính 10k ship.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3">
+					<div class="intro-wrap">
+						<div class="intro-icon">
+							<i class="fas fa-sync-alt"></i>
+						</div>
+						<div class="intro-content">
+							<h5>Chính Sách Hoàn Tiền</h5>
+							<p>Hoàn lại số tiền bằng với tiền vận chuyển mà người mua đã thanh toán cho đơn vị vận chuyển thông qua “Số dư tài khoản Vegetable-Organic” trên ứng dụng</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3">
+					<div class="intro-wrap">
+						<div class="intro-icon">
+							<i class="fas fa-headset"></i>
+						</div>
+						<div class="intro-content">
+							<h5>Hệ Thống Hỗ Trợ</h5>
+							<p>Nguồn rau sạch rõ ràng, giá lại rẻ hơn cả rau mua ngoài chợ</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3">
+					<div class="intro-wrap">
+						<div class="intro-icon">
+							<i class="fas fa-lock"></i>
+						</div>
+						<div class="intro-content">
+							<h5>Thanh Toán An Toàn</h5>
+							<p>Người mua có thể gửi yêu cầu trả hàng/hoàn tiền trong vòng 07 (bảy) ngày (đối với các sản phẩm thuộc Cửa Hàng) và 03 (ba) ngày (đối với các sản phẩm không thuộc Cửa Hàng) kể từ lúc đơn hàng được cập nhật giao hàng thành công.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+   <!--************************************
+				Footer Start
+		*************************************-->
+		<footer th:replace="~{/web/fragments/footer :: footer}"></footer>
+				
+		<!--************************************
+				Footer End
+		*************************************-->
+   
+   
+    <script src="vendor/bootstrap/jquery-1.12.4.min.js"></script>
+    <script src="vendor/bootstrap/popper.min.js"></script>
+    <script src="vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="vendor/countdown/countdown.min.js"></script>
+    <script src="vendor/niceselect/nice-select.min.js"></script>
+    <script src="vendor/slickslider/slick.min.js"></script>
+    <script src="vendor/venobox/venobox.min.js"></script>
+    <script src="js/nice-select.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/accordion.js"></script>
+    <script src="js/venobox.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
